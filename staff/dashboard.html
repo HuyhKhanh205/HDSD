@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Nhân viên</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Dashboard Nhân viên</h1>
+         <p>Cung cấp cái nhìn tổng quan về tình hình hiện tại của nhân viên, nhà hàng và là điểm truy cập chính tới các chức năng khác.</p>
+        
+        <img src="../images/staff_dashboard.png" alt="Dashboard nhân viên" class="screenshot">
+
+        <div class="card" style="border-top-color: var(--success);">
+            <h3><i class="fa-solid fa-play-circle"></i> Bắt đầu ca làm việc</h3>
+            <p>Đây là thao tác đầu tiên khi bạn đến làm việc:</p>
+            <p>1. Quan sát khu vực <strong>Quản lý ca làm</strong> để biết trạng thái hiện tại.</p>
+            <p>2.  Nhấn nút <span class="btn-sim bg-green">Bắt đầu ca</span>.</p>
+            <p>3. Nhập số tiền đầu ca (tiền lẻ trong két) để hệ thống ghi nhận.</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3><i class="fa-solid fa-clock"></i> Hiệu suất làm việc</h3>
+                <p>Hệ thống tự động tính toán và hiển thị:</p>
+                <ul>
+                     <li>Giờ làm tuần & Giờ làm tháng.</li>
+                     <li>Doanh thu hôm nay (do chính bạn bán được).</li>
+                     <li>Tiền hiện có trong két.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3><i class="fa-solid fa-chart-column"></i> Biểu đồ & Lịch</h3>
+                <ul>
+                     <li><strong>Biểu đồ 7 ngày:</strong> Hiển thị số giờ làm của bạn trong 7 ngày gần nhất.</li>
+                     <li><strong>Lịch làm việc gần đây:</strong> Hiển thị danh sách 3 ca làm việc gần nhất của bạn.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3><i class="fa-solid fa-users"></i> Giao ca</h3>
+                 <p>Hiển thị thông tin nhân viên trực ca trước và ca sau để thuận tiện cho việc bàn giao công việc.</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/nav.js"></script>
+</body>
+</html>

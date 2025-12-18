@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý Hóa đơn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Quản lý Hóa đơn</h1>
+         <p>Cho phép xem lại lịch sử các hóa đơn đã được tạo, tìm kiếm và xuất dữ liệu khi cần.</p>
+        
+        <img src="../images/invoice.png" alt="Màn hình hóa đơn" class="screenshot">
+
+        <div class="card-grid">
+            <div class="card">
+                <h3><i class="fa-solid fa-file-excel"></i> Xuất dữ liệu</h3>
+                <p>Để phục vụ công tác kế toán hoặc lưu trữ, bạn có thể nhấn nút <span class="btn-sim bg-green"><i class="fa-solid fa-file-export"></i> Xuất hóa đơn</span>.</p>
+                 <p>Hệ thống sẽ xuất danh sách hóa đơn hiện tại ra file Excel.</p>
+            </div>
+
+            <div class="card">
+                <h3><i class="fa-solid fa-filter"></i> Bộ lọc nâng cao</h3>
+                <ul>
+                     <li><strong>Trạng thái:</strong> Lọc theo "Tất cả", "Đã thanh toán", hoặc "Chờ xác nhận".</li>
+                     <li><strong>Thời gian:</strong> Chọn khoảng "Từ ngày" - "Đến ngày" rồi nhấn nút <strong>Lọc</strong>.</li>
+                     <li><strong>Nút Hôm nay:</strong> Xem nhanh hóa đơn phát sinh trong ngày.</li>
+                     <li><strong>Tìm kiếm:</strong> Nhập mã hóa đơn vào thanh tìm kiếm.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3><i class="fa-solid fa-list"></i> Thông tin chi tiết</h3>
+                 <p>Bảng danh sách cung cấp các cột thông tin:</p>
+                <ul>
+                    <li>Thời gian thanh toán & Mã tham chiếu.</li>
+                    <li>Nhân viên xử lý.</li>
+                    <li>Hình thức thanh toán & Tổng tiền.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../js/nav.js"></script>
+</body>
+</html>
